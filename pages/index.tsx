@@ -49,7 +49,7 @@ export default () => {
       { fingerprint ? (
         <Title fingerPrint={fingerprint}/>
       ) : (
-        <p>loading...</p>
+        <Title fingerPrint='loading...'/>
       )
       }
     </Main>

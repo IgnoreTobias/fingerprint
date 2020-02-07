@@ -5,11 +5,102 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/server/static/development/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/server/static/development/pages/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/server/static/development/pages/index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/.next/server/static/development/pages/index.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/server/static/development/pages/next/dist/pages/_error.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/server/static/development/pages/next/dist/pages/_error.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/server/static/development/pages/next/dist/pages/_error.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/.next/server/static/development/pages/next/dist/pages/_error.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/static/development/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/development/pages/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/static/development/pages/index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/development/pages/index.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/development/pages/next/dist/pages/_error.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/development/pages/next/dist/pages/_error.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/static/runtime/webpack.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/runtime/webpack.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/static/runtime/webpack.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/runtime/webpack.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/02aae14fa728a3ccb07a.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/103484b97a2d843e5b29.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/1088f0b88e600fe48472.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/13cab9423c6777b6ed18.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/1c430c852901f2c50826.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/2271e10bfbc31fb4699c.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/2d0b9425f7182844a9ef.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/36304ccdd5ff5fdc8d13.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/415eee96f432e35c9083.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/47811065eb01ebc9091a.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/4b9c1e48dfb0ec0e3f17.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/54c98f3991673d700de4.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/57a0e0a651ac7b28d3d3.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/615ba1825630de6927d8.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/6e1b900f7bb00601f35c.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/73ea49825c74b5923276.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/7bf420cd1bef3c97df34.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/81fafd7cb494b024e4d5.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/89909446c14820fd14e7.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/9a744c5ad18a4a881a8e.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/9d8386e3ef03f479f235.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/a5ade1e112ddbc5ad022.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/a62c234f1cb8a554c77e.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/a7da7b8b0e5c09c2f00d.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/abe042920ce900174dcc.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/b1b90cf79718be91bb9e.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/b99ff1dadc1fca547e5b.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/cfebfbcac19c44085166.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/ec727e3f41e155ba49e1.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/ef57299a28507cd368c6.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/f70287e529b2a68cb5ba.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/f89fb46ba8e1f474966c.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/fefde16199aa68189ffb.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/_app.js.73ea49825c74b5923276.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/_app.js.73ea49825c74b5923276.hot-update.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/index.js.02aae14fa728a3ccb07a.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/index.js.02aae14fa728a3ccb07a.hot-update.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/index.js.103484b97a2d843e5b29.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/index.js.103484b97a2d843e5b29.hot-update.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/index.js.1088f0b88e600fe48472.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/index.js.1088f0b88e600fe48472.hot-update.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/index.js.13cab9423c6777b6ed18.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/index.js.13cab9423c6777b6ed18.hot-update.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/index.js.2271e10bfbc31fb4699c.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/index.js.2271e10bfbc31fb4699c.hot-update.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/index.js.2d0b9425f7182844a9ef.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/index.js.2d0b9425f7182844a9ef.hot-update.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/index.js.36304ccdd5ff5fdc8d13.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/index.js.36304ccdd5ff5fdc8d13.hot-update.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/index.js.415eee96f432e35c9083.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/index.js.415eee96f432e35c9083.hot-update.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/index.js.47811065eb01ebc9091a.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/index.js.47811065eb01ebc9091a.hot-update.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/index.js.54c98f3991673d700de4.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/index.js.54c98f3991673d700de4.hot-update.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/index.js.57a0e0a651ac7b28d3d3.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/index.js.57a0e0a651ac7b28d3d3.hot-update.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/index.js.615ba1825630de6927d8.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/index.js.615ba1825630de6927d8.hot-update.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/index.js.6e1b900f7bb00601f35c.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/index.js.6e1b900f7bb00601f35c.hot-update.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/index.js.7bf420cd1bef3c97df34.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/index.js.7bf420cd1bef3c97df34.hot-update.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/index.js.81fafd7cb494b024e4d5.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/index.js.81fafd7cb494b024e4d5.hot-update.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/index.js.9a744c5ad18a4a881a8e.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/index.js.9a744c5ad18a4a881a8e.hot-update.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/index.js.a5ade1e112ddbc5ad022.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/index.js.a5ade1e112ddbc5ad022.hot-update.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/index.js.a7da7b8b0e5c09c2f00d.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/index.js.a7da7b8b0e5c09c2f00d.hot-update.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/index.js.abe042920ce900174dcc.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/index.js.abe042920ce900174dcc.hot-update.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/index.js.b1b90cf79718be91bb9e.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/index.js.b1b90cf79718be91bb9e.hot-update.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/index.js.b99ff1dadc1fca547e5b.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/index.js.b99ff1dadc1fca547e5b.hot-update.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/index.js.cfebfbcac19c44085166.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/index.js.cfebfbcac19c44085166.hot-update.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/index.js.ec727e3f41e155ba49e1.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/index.js.ec727e3f41e155ba49e1.hot-update.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/index.js.f70287e529b2a68cb5ba.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/index.js.f70287e529b2a68cb5ba.hot-update.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/index.js.f89fb46ba8e1f474966c.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/index.js.f89fb46ba8e1f474966c.hot-update.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/index.js.fefde16199aa68189ffb.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/index.js.fefde16199aa68189ffb.hot-update.js.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/atoms/title.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/atoms/title.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +174,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1581067404280</updated>
-      <workItem from="1581067406085" duration="10747000" />
+      <workItem from="1581067406085" duration="11361000" />
+      <workItem from="1581083589484" duration="1022000" />
     </task>
     <servers />
   </component>
@@ -95,22 +187,22 @@
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="542" y="66" key="CommitChangelistDialog2/0.23.1920.1057/1920.-447.1080.1897/-1680.23.1680.1027@0.23.1920.1057" timestamp="1581077905724" />
-    <state width="1876" height="104" key="GridCell.Tab.0.bottom" timestamp="1581069291058">
+    <state width="1876" height="104" key="GridCell.Tab.0.bottom" timestamp="1581081074822">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1876" height="104" key="GridCell.Tab.0.bottom/0.23.1920.1057/1920.-447.1080.1897/-1680.23.1680.1027@0.23.1920.1057" timestamp="1581069291058" />
-    <state width="1876" height="104" key="GridCell.Tab.0.center" timestamp="1581069291057">
+    <state width="1876" height="104" key="GridCell.Tab.0.bottom/0.23.1920.1057/1920.-447.1080.1897/-1680.23.1680.1027@0.23.1920.1057" timestamp="1581081074822" />
+    <state width="1876" height="104" key="GridCell.Tab.0.center" timestamp="1581081074821">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1876" height="104" key="GridCell.Tab.0.center/0.23.1920.1057/1920.-447.1080.1897/-1680.23.1680.1027@0.23.1920.1057" timestamp="1581069291057" />
-    <state width="1876" height="104" key="GridCell.Tab.0.left" timestamp="1581069291057">
+    <state width="1876" height="104" key="GridCell.Tab.0.center/0.23.1920.1057/1920.-447.1080.1897/-1680.23.1680.1027@0.23.1920.1057" timestamp="1581081074821" />
+    <state width="1876" height="104" key="GridCell.Tab.0.left" timestamp="1581081074821">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1876" height="104" key="GridCell.Tab.0.left/0.23.1920.1057/1920.-447.1080.1897/-1680.23.1680.1027@0.23.1920.1057" timestamp="1581069291057" />
-    <state width="1876" height="104" key="GridCell.Tab.0.right" timestamp="1581069291058">
+    <state width="1876" height="104" key="GridCell.Tab.0.left/0.23.1920.1057/1920.-447.1080.1897/-1680.23.1680.1027@0.23.1920.1057" timestamp="1581081074821" />
+    <state width="1876" height="104" key="GridCell.Tab.0.right" timestamp="1581081074822">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1876" height="104" key="GridCell.Tab.0.right/0.23.1920.1057/1920.-447.1080.1897/-1680.23.1680.1027@0.23.1920.1057" timestamp="1581069291058" />
+    <state width="1876" height="104" key="GridCell.Tab.0.right/0.23.1920.1057/1920.-447.1080.1897/-1680.23.1680.1027@0.23.1920.1057" timestamp="1581081074822" />
     <state x="782" y="184" width="355" height="728" key="RollbackChangesDialog" timestamp="1581077450559">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
@@ -127,9 +219,10 @@
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="628" y="292" width="663" height="518" key="find.popup/0.23.1920.1057/1920.-447.1080.1897/-1680.23.1680.1027@0.23.1920.1057" timestamp="1581074082552" />
-    <state x="625" y="258" width="670" height="676" key="search.everywhere.popup" timestamp="1581071855833">
-      <screen x="0" y="23" width="1920" height="1057" />
+    <state x="547" y="251" width="670" height="657" key="search.everywhere.popup" timestamp="1581080878200">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
+    <state x="547" y="251" width="670" height="657" key="search.everywhere.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1581080878200" />
     <state x="625" y="258" width="670" height="676" key="search.everywhere.popup/0.23.1920.1057/1920.-447.1080.1897/-1680.23.1680.1027@0.23.1920.1057" timestamp="1581071855833" />
   </component>
 </project>

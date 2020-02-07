@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -163,13 +163,14 @@ const Main = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.main.withC
       lineNumber: 50
     },
     __self: undefined
-  }) : __jsx("p", {
+  }) : __jsx(_src_components_atoms_title__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    fingerPrint: "loading...",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 52
     },
     __self: undefined
-  }, "loading..."));
+  }));
 });
 
 /***/ }),
@@ -192,31 +193,47 @@ var _jsxFileName = "/Users/tobiash/github/fingerprint/src/components/atoms/title
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
-const fontMono = Object(styled_components__WEBPACK_IMPORTED_MODULE_1__["css"])(["font-family:monospace;font-weight:400;"]);
+const FlexItem = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
+  displayName: "title__FlexItem",
+  componentId: "sc-1o0l52d-0"
+})(["padding:1vw 20px;"]);
+const fontMono = Object(styled_components__WEBPACK_IMPORTED_MODULE_1__["css"])(["font-family:monospace;font-weight:400;display:inline;word-break:break-all;"]);
 const Mono = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.h1.withConfig({
   displayName: "title__Mono",
-  componentId: "sc-1o0l52d-0"
-})(["", " color:#68bccf;font-size:2rem;margin:0 0 20px 0;"], fontMono);
+  componentId: "sc-1o0l52d-1"
+})(["", " color:#68bccf;font-size:1.5rem;@media(min-width:768px){font-size:2.5rem;}@media(min-width:1024px){font-size:3.5rem;}"], fontMono);
 const MonoSub = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.h2.withConfig({
   displayName: "title__MonoSub",
-  componentId: "sc-1o0l52d-1"
-})(["", " color:#656778;font-size:1.5rem;margin:0 0 20px 0;"], fontMono);
+  componentId: "sc-1o0l52d-2"
+})(["", " color:#656778;font-size:1rem;@media(min-width:768px){font-size:2rem;}@media(min-width:1024px){font-size:3rem;}"], fontMono);
 function Title({
   fingerPrint
 }) {
-  return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx(MonoSub, {
+  return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx(FlexItem, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30
+      lineNumber: 47
     },
     __self: this
-  }, "Your Unique Browser Fingerprint:"), __jsx(Mono, {
+  }, __jsx(MonoSub, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33
+      lineNumber: 48
     },
     __self: this
-  }, fingerPrint));
+  }, "Your Unique Browser Fingerprint:")), __jsx(FlexItem, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 52
+    },
+    __self: this
+  }, __jsx(Mono, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 53
+    },
+    __self: this
+  }, fingerPrint)));
 }
 
 /***/ }),
@@ -243,7 +260,7 @@ const getFingerprint = () => new Promise(resolve => {
 
 /***/ }),
 
-/***/ 4:
+/***/ 3:
 /*!*******************************!*\
   !*** multi ./pages/index.tsx ***!
   \*******************************/
