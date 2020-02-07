@@ -7212,31 +7212,45 @@ var Main = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].main.withCo
 
   Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(function () {
     Object(_src_components_utils_fingerprint__WEBPACK_IMPORTED_MODULE_3__["getFingerprint"])().then(function (res) {
-      var hashedFingerPrint = md5__WEBPACK_IMPORTED_MODULE_2___default()(res);
-      setFingerprint(hashedFingerPrint);
-      var d = new Date();
-      d.setTime(d.getTime() + 10 * 365 * 24 * 60 * 60 * 1000);
-      var expires = d.toUTCString();
-      document.cookie = "FINGERPRINT=".concat(hashedFingerPrint, "; expires=").concat(expires);
+      if (res !== []) {
+        var objectsToString = function objectsToString(res) {
+          var str = ''; // @ts-ignore
+
+          for (var i = 0, len = res.length; i < len; i++) {
+            // @ts-ignore
+            str += res[i].key + ' is ' + res[i].value + '. ';
+          }
+
+          return str;
+        };
+
+        var fingerPrintString = objectsToString(res);
+        var hashedFingerPrint = md5__WEBPACK_IMPORTED_MODULE_2___default()(fingerPrintString);
+        setFingerprint(hashedFingerPrint);
+        var d = new Date();
+        d.setTime(d.getTime() + 10 * 365 * 24 * 60 * 60 * 1000);
+        var expires = d.toUTCString();
+        document.cookie = "FINGERPRINT=".concat(hashedFingerPrint, "; expires=").concat(expires);
+      }
     });
   }, [fingerprint]);
   return __jsx(Main, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36
+      lineNumber: 48
     },
     __self: this
   }, fingerprint ? __jsx(_src_components_atoms_title__WEBPACK_IMPORTED_MODULE_4__["default"], {
     fingerPrint: fingerprint,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38
+      lineNumber: 50
     },
     __self: this
   }) : __jsx("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 40
+      lineNumber: 52
     },
     __self: this
   }, "loading..."));
