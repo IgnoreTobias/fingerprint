@@ -1,8 +1,5 @@
-import React, {ReactElement, useEffect, useState} from 'react'
+import React, {ReactElement} from 'react'
 import styled, {css} from 'styled-components'
-
-import md5 from 'md5'
-
 const fontMono = css`
   font-family: monospace;
   font-weight: 400;
@@ -22,27 +19,11 @@ const MonoSub = styled.h2`
   margin: 0 0 20px 0;
 `
 
-
-
 interface TitleProps {
-  fingerPrint: fingerPrint[]
-}
-
-interface fingerPrint {
-  key: string
-  value: string
+  fingerPrint: string
 }
 
 export default function Title({fingerPrint}: TitleProps): ReactElement {
-  const [hashed, setHashed] = useState('')
-
-  useEffect(()=>{
-    setHashed(md5(fingerPrint))
-    const d = new Date()
-    d.setTime(d.getTime() + 10 * 365 * 24 * 60 * 60 * 1000)
-    const expires = d.toUTCString()
-    document.cookie = `FINGERPRINT=${hashed}; expires=${expires}`
-  }, [hashed])
 
   return (
     <>
@@ -50,7 +31,7 @@ export default function Title({fingerPrint}: TitleProps): ReactElement {
         Your Unique Browser Fingerprint:
       </MonoSub>
       <Mono>
-        {hashed}
+        {fingerPrint}
       </Mono>
     </>
   )

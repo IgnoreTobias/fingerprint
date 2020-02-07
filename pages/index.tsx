@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react'
 import styled from 'styled-components'
-
+import md5 from 'md5'
 import { getFingerprint } from "../src/components/utils/fingerprint";
 
 import Title from '../src/components/atoms/title'
@@ -16,16 +16,21 @@ const Main = styled.main`
   flex-direction: column;
 `
 
-
 export default () => {
-  const [fingerprint, setFingerprint] = useState([]);
+  const [fingerprint, setFingerprint] = useState();
 
   useEffect(() => {
     getFingerprint().then(
-    // @ts-ignore
-      res => setFingerprint(res)
+      res => {
+        const hashedFingerPrint = (md5(res))
+        setFingerprint(hashedFingerPrint)
+        const d = new Date()
+        d.setTime(d.getTime() + 10 * 365 * 24 * 60 * 60 * 1000)
+        const expires = d.toUTCString()
+        document.cookie = `FINGERPRINT=${hashedFingerPrint}; expires=${expires}`
+      }
     )
-  }, []);
+  }, [fingerprint]);
 
   return (
     <Main>

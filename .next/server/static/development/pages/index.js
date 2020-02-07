@@ -106,10 +106,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "styled-components");
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _src_components_utils_fingerprint__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../src/components/utils/fingerprint */ "./src/components/utils/fingerprint.ts");
-/* harmony import */ var _src_components_atoms_title__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../src/components/atoms/title */ "./src/components/atoms/title.tsx");
+/* harmony import */ var md5__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! md5 */ "md5");
+/* harmony import */ var md5__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(md5__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _src_components_utils_fingerprint__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../src/components/utils/fingerprint */ "./src/components/utils/fingerprint.ts");
+/* harmony import */ var _src_components_atoms_title__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../src/components/atoms/title */ "./src/components/atoms/title.tsx");
 var _jsxFileName = "/Users/tobiash/github/fingerprint/pages/index.tsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
 
 
 
@@ -122,28 +125,34 @@ const Main = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.main.withC
   const {
     0: fingerprint,
     1: setFingerprint
-  } = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])([]);
+  } = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])();
   Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(() => {
-    Object(_src_components_utils_fingerprint__WEBPACK_IMPORTED_MODULE_2__["getFingerprint"])().then( // @ts-ignore
-    res => setFingerprint(res));
-  }, []);
+    Object(_src_components_utils_fingerprint__WEBPACK_IMPORTED_MODULE_3__["getFingerprint"])().then(res => {
+      const hashedFingerPrint = md5__WEBPACK_IMPORTED_MODULE_2___default()(res);
+      setFingerprint(hashedFingerPrint);
+      const d = new Date();
+      d.setTime(d.getTime() + 10 * 365 * 24 * 60 * 60 * 1000);
+      const expires = d.toUTCString();
+      document.cookie = `FINGERPRINT=${hashedFingerPrint}; expires=${expires}`;
+    });
+  }, [fingerprint]);
   return __jsx(Main, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31
+      lineNumber: 36
     },
     __self: undefined
-  }, fingerprint ? __jsx(_src_components_atoms_title__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  }, fingerprint ? __jsx(_src_components_atoms_title__WEBPACK_IMPORTED_MODULE_4__["default"], {
     fingerPrint: fingerprint,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33
+      lineNumber: 38
     },
     __self: undefined
   }) : __jsx("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35
+      lineNumber: 40
     },
     __self: undefined
   }, "loading..."));
@@ -165,11 +174,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "styled-components");
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var md5__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! md5 */ "md5");
-/* harmony import */ var md5__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(md5__WEBPACK_IMPORTED_MODULE_2__);
 var _jsxFileName = "/Users/tobiash/github/fingerprint/src/components/atoms/title.tsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
 
 
 const fontMono = Object(styled_components__WEBPACK_IMPORTED_MODULE_1__["css"])(["font-family:monospace;font-weight:400;"]);
@@ -184,30 +190,19 @@ const MonoSub = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.h2.with
 function Title({
   fingerPrint
 }) {
-  const {
-    0: hashed,
-    1: setHashed
-  } = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])('');
-  Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(() => {
-    setHashed(md5__WEBPACK_IMPORTED_MODULE_2___default()(fingerPrint));
-    const d = new Date();
-    d.setTime(d.getTime() + 10 * 365 * 24 * 60 * 60 * 1000);
-    const expires = d.toUTCString();
-    document.cookie = `FINGERPRINT=${hashed}; expires=${expires}`;
-  }, [hashed]);
   return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx(MonoSub, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49
+      lineNumber: 30
     },
     __self: this
   }, "Your Unique Browser Fingerprint:"), __jsx(Mono, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 52
+      lineNumber: 33
     },
     __self: this
-  }, hashed));
+  }, fingerPrint));
 }
 
 /***/ }),
@@ -225,8 +220,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var fingerprintjs2__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! fingerprintjs2 */ "fingerprintjs2");
 /* harmony import */ var fingerprintjs2__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(fingerprintjs2__WEBPACK_IMPORTED_MODULE_0__);
 // @ts-ignore
- // We re-write the callback into a Promise style,
-// so it plays nice with React Hooks
 
 const getFingerprint = () => new Promise(resolve => {
   fingerprintjs2__WEBPACK_IMPORTED_MODULE_0___default.a.get(components => {
